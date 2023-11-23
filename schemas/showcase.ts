@@ -24,6 +24,10 @@ export default defineType({
 							validation: (rule) => rule.required()
 						},
 						{
+							name:'credit',
+							type:'string',
+						},
+						{
 							name:'media_type',
 							type:'string',
 							options: {list: [{title:'Image',value:'image'}, {title:'Youtube Video',value:'video'}]},

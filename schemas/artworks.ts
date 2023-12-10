@@ -40,6 +40,15 @@ export default defineType({
 				}
 			]
 		}),
+		defineField({
+			name:'full_width',
+			title:'Full Width',
+			type:'boolean',
+		}),defineField({
+			name:'full_height',
+			title:'Full Height',
+			type:'boolean',
+		})
   ],
 
 })

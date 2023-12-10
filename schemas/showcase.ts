@@ -35,14 +35,14 @@ export default defineType({
 						},{
 							name:'art',
 							type:'image',
-							options: { isHighlighted: true },
+							// options: { isHighlighted: true },
 						},
 						{
 							name:'video_id',
 							title:'Youtube Video ID',
 							description:'The video id at the end of youtube url,for example: https://www.youtube.com/watch?v=dQw4w9WgXcQ -> dQw4w9WgXcQ',
 							type:'string',
-							options: { isHighlighted: true },
+							// options: { isHighlighted: true },
 						}
 					]
 				}

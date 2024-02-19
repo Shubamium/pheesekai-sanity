@@ -17,6 +17,28 @@ export default defineType({
       type: 'image',
     }),
 		defineField({
+			name: 'pc',
+			title: 'PC Specs',
+			type:'object',
+			fields:[
+				{name:'processor',title:'Processor',type:'string'},
+				{name:'gpu',title:'GPU',type:'string'},
+				{name:'motherboard',title:'Motherboard',type:'string'},
+				{name:'ram',title:'RAM',type:'string'}
+			]
+		}),
+		defineField({
+			name:'peripherals',
+			title:'Peripherals',
+			type:'array',
+			of:[
+				{type:'object',fields:[
+						{name:'item_name',title:'Peripherals Name',type:'string'},
+						{name:'item_image',title:'Peripherals Image',type:'image'},
+				]},
+			]
+		}),
+		defineField({
 			name:'stats',
 			title:'Statistics',
 			type:'object',

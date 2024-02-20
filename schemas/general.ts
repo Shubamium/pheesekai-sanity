@@ -35,6 +35,7 @@ export default defineType({
 				{type:'object',fields:[
 						{name:'item_name',title:'Peripherals Name',type:'string'},
 						{name:'item_image',title:'Peripherals Image',type:'image'},
+						{name:'item_link',title:'Peripherals Link',type:'url'},
 				]},
 			]
 		}),
